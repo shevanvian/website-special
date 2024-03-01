@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>Cara Membuat Gallery Foto Dengan HTML Dan CSS</title>
+    <style type="text/css">
+        body{
+            width: 50%;
+            text-align: center;
+            background-image: url('back4.jpg');
+            text-align: center;
+            margin: auto;
+        }
+        .h1{
+            color: #ffffff;
+              
+        }
+        h5{
+            color: rgb(253, 253, 253);
+        }
+        div.gallery {
+            border: 1px solid #171529;
+        }
+        div.gallery:hover {
+            border: 2px solid skyblue;
+        }
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            color:black;
+            background:#5a75aa;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+        @media only screen and (max-width: 700px){
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+        @media only screen and (max-width: 500px){
+            .responsive {
+                width: 100%;
+            }
+        }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .button{
+            background-color: #5a75aa;
+        }
+    </style>
+</head>
+<body>
+    <h1>THIS IS OUR GALLERY</h1>
+    <h5>jangan lupa click buttonnya yaaa</h5>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="jimsea1.jpg">
+                <img src="jimsea1.jpg" width="600" height="400">
+            </a>
+            <div class="desc">love you in every universe jijip</div>
+            <button id="jimsea1" onclick="alert('The one who loves the moon still loves it even when it isnt there in the sky.I wish to be that moon for someone. ')">click me</button>&nbsp;
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="jimsea2.jpg">
+                <img src="jimsea2.jpg" width="600" height="400">
+            </a>
+            <div class="desc">i know,this is not a movie,but i keep hoping in the ent it'll be u and me</div>
+            <button id="jimsea2" onclick="alert('You painted my life with so many color. You made me realize that black, no matter how painful and dark, is a color, too.u ')">click me</button>&nbsp;
+        </div>
+    </div>
+    <div class="responsive">
+        
+        <div class="gallery">
+            <a target="_blank" href="jimsea3.jpg">
+                <img src="jimsea3.jpg" width="600" height="400">
+            </a>
+            <div class="desc">i love you,wherever u are</div>
+            <button id="jimsea3" onclick="alert('you remind me of home,of all the simple things in life, of light and love and the reasons i am not alone.')">click me</button>&nbsp;
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="jimsea5.jpg">
+                <img src="jimsea5.jpg" width="600" height="400">
+            </a>
+            <div class="desc">i love you,to the moon and back</div>
+            <button id="jimsea4" onclick="alert('You are my best friend as well as my lover, and I do not know which side of you I enjoy the most. I treasure each side, just as I have treasured our life together. ')">click me</button>&nbsp;
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="love1.jpg">
+                <img src="love1.jpg" width="600" height="400">
+            </a>
+            <div class="desc">you're amazing and i love you</div>
+            <button id="love1" onclick="alert('And I will love you in the only way I know how; with my whole heart, with every fiber of my being, with everything inside me. ')">click me</button>&nbsp;
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="love2.jpg">
+                <img src="love2.jpg" width="600" height="400">
+            </a>
+            <div class="desc">beautiful flower from my perfect man</div>
+            <button id="love2" onclick="alert('I hope you know that you deserve it all. The best, the most honest, the most beautiful and purest love in the world. Not only to be loved by others, but to be loved by yourself. To look in the mirror and think -yes, Im exactly who I want to be-. To speak up and be proud of yourself. To be brave and open. You deserve the nicest and most caring people to walk into your life. You deserve it all, you know. The whole world. And you should never forget. ')">click me</button>&nbsp;
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="love3.jpg">
+                <img src="love3.jpg" width="600" height="400">
+            </a>
+            <div class="desc">when i found you,my heart found a home</div>
+            <button id="love3" onclick="alert('You are the sun in my day, the wind in my sky, the waves in my ocean, and the beat in,my heart. ')">click me</button>&nbsp;
+        </div>
+    </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="love4.jpg">
+                <img src="love4.jpg" width="600" height="400">
+            </a>
+            <div class="desc">no matter how much i say i love you,i always love you more than that</div>
+            <button id="love4" onclick="alert('I caught myself smiling and then I realised I was thinking about you. ')">click me</button>&nbsp;
+        </div>
+    </div>
+    </div>
+</body>
+</html>
